@@ -9,7 +9,6 @@ public class JavaInput {
         InputStreamReader is = new InputStreamReader(System.in);
         System.out.println(is.read());
     }
-
     public void readTwoChars() throws IOException{
         InputStreamReader is = new InputStreamReader(System.in);
 
