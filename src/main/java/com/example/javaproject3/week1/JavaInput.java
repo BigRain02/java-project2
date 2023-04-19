@@ -1,7 +1,6 @@
 package com.example.javaproject3.week1;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class JavaInput {
@@ -17,6 +16,9 @@ public class JavaInput {
 
         System.out.println(asciiCode1);
         System.out.println(asciiCode2);
+
+        System.out.println("asciiCode1 = " + asciiCode1);
+        System.out.println("asciiCode2 = " + asciiCode2);
 
     }
 }
