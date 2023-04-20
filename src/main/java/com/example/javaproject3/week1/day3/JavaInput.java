@@ -1,4 +1,5 @@
-package com.example.javaproject3.week1;
+package com.example.javaproject3.week1.day3;
+
 
 import java.io.IOException;
 import java.io.InputStreamReader;
