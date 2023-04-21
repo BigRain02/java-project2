@@ -15,7 +15,7 @@ public class PointTest {
         Point p3 = new Point();
         p3.x = 3;
         p3.y = 4;
-        System.out.printf("거리 : %d",p1.getDistance(p3));
+        System.out.printf("거리 : %f",p1.getDistance(p3));
     }
 
 }

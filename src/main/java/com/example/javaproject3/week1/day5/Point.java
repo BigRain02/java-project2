@@ -9,11 +9,12 @@ public class Point {
     }
 
     double getDistance(Point p1){
-        int xL = Math.abs(this.x - p1.x);
-        int yL = Math.abs(this.y - p1.y);
+        int xL = Math.abs(p1.x - this.x);
+        int yL = Math.abs(p1.y - this.y);
         double xyL = Math.pow(xL,2) + Math.pow(yL,2);
+        double result = Math.sqrt(xyL);
 
-        return xyL;
+        return result;
     }
 
     public static void main(String[] args) {
