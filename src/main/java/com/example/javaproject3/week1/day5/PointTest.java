@@ -12,6 +12,10 @@ public class PointTest {
         System.out.printf("x:%d y:%d\n",p2.x,p2.y);
         System.out.printf("xy가 같은가? %s\n",p1.isSameXy());
         System.out.printf("xy가 같은가? %s\n",p2.isSameXy());
+        Point p3 = new Point();
+        p3.x = 3;
+        p3.y = 4;
+        System.out.printf("거리 : %d",p1.getDistance(p3));
     }
 
 }

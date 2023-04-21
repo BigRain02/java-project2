@@ -8,6 +8,14 @@ public class Point {
         return x==y;
     }
 
+    double getDistance(Point p1){
+        int xL = Math.abs(this.x - p1.x);
+        int yL = Math.abs(this.y - p1.y);
+        double xyL = Math.pow(xL,2) + Math.pow(yL,2);
+
+        return xyL;
+    }
+
     public static void main(String[] args) {
         Point p = new Point();
         System.out.println(p.x);
