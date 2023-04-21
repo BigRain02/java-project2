@@ -4,19 +4,20 @@ public class SpaceInvadersMemberValuable {
     int location;
     public void moveLeft(){
         location = location - 1;
-        System.out.printf("moveLeft : %d\n",location);
     }
-    public void moveLight(){
+    public void moveRight(){
         location = location + 1;
-        System.out.printf("moveRight : %d\n",location);
     }
 
     public static void main(String[] args) {
         SpaceInvadersMemberValuable space = new SpaceInvadersMemberValuable();
-        space.moveLight();
+        space.moveRight();
         space.moveLeft();
         space.moveLeft();
         space.moveLeft();
         space.moveLeft();
+        System.out.printf("현재 위치 : %d",space.location);
+        space.moveRight();
+        System.out.printf("\n현재 위치 : %d",space.location);
     }
 }
