@@ -5,4 +5,5 @@ public class Teacher {
     String name;
     int age;
     String address;
+    Student[] students;
 }
