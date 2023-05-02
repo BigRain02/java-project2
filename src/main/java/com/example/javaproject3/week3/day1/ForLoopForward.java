@@ -1,4 +1,4 @@
-package com.example.javaproject3.week3;
+package com.example.javaproject3.week3.day1;
 
 public class ForLoopForward {
     public static void main(String[] args) {

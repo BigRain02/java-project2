@@ -1,4 +1,4 @@
-package com.example.javaproject3.week3;
+package com.example.javaproject3.week3.day1;
 
 public class MultiplicationDanTable {
     public static void printDan(int dan) {
